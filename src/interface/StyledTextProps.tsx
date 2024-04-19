@@ -1,0 +1,32 @@
+export interface StyledTextProps {
+  children: React.ReactNode
+  blue80?: boolean
+  blue40?: boolean
+  blue60?: boolean
+  blue20?: boolean
+  blue100?: boolean
+  bgWhite?: boolean
+  bgBlack?: boolean
+  textGray?: boolean
+  textWhite?: boolean
+  textS?: boolean
+  textSM?: boolean
+  textM?: boolean
+  textML?: boolean
+  textL?: boolean
+  textXL?: boolean
+  textXLM?: boolean
+  textXLL?: boolean
+  text2XL?: boolean
+  text3XL?: boolean
+  text4XL?: boolean
+  textH?: boolean
+  textG?: boolean
+  textMA?: boolean
+  bold?: boolean
+  regular?: boolean
+  textCenter?: boolean
+  textJustify?: boolean
+  textLeft?: boolean
+  textRight?: boolean
+}
