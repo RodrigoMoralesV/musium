@@ -4,10 +4,11 @@ import { Alert, Pressable, View } from 'react-native'
 import { BarIcon, BellIcon, SettingsIcon } from '../../components/icons/Icons'
 import { styledHeaderHome } from '../../config/theme/appTheme'
 import { Avatar } from '../../components/Avatar'
+import { Background } from '../../components/Background'
 
 export const HomeScreen = () => {
   return (
-    <View style={{ backgroundColor: "black" }}>
+    <Background>
 
       <View style={styledHeaderHome.container}>
 
@@ -44,6 +45,6 @@ export const HomeScreen = () => {
 
       </View>
 
-    </View>
+    </Background>
   )
 }
