@@ -12,17 +12,17 @@ export const Background: React.FC<BackgroundProps> = (props) => {
   const currentColor = colors ?? ['#06A0B5', '#102B2D', '#0E0E0E']
 
   return (
-    <View style={styles.container}>
+    <View style={stylesBackground.container}>
       <LinearGradient
         colors={currentColor}
-        style={styles.background}
+        style={stylesBackground.background}
       />
       {children}
     </View>
   )
 }
 
-const styles = StyleSheet.create({
+const stylesBackground = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 29,
@@ -33,5 +33,6 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     height: "100%",
+    zIndex: -10,
   },
 });

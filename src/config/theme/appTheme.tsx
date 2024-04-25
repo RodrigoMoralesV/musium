@@ -98,13 +98,23 @@ export const styledHeaderHome = StyleSheet.create({
     flexDirection: 'row',
     columnGap: 17,
     alignItems: 'center',
-  },
-  content: {
-
+    marginBottom: 25,
   },
   iconsDistribution: {
     flexDirection: 'row',
     alignItems: "center",
     columnGap: 23,
+  }
+})
+
+export const styledList = StyleSheet.create({
+  listDistribution: {
+    flexDirection: 'row',
+    columnGap: 12,
+    marginTop: 12
+  },
+  order: {
+    flex: 1,
+    rowGap: 9,
   }
 })
